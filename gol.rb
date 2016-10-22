@@ -1,4 +1,3 @@
-require 'pry'
 class Grid < Struct.new "Grid", :cells, :x, :y
   def build
     for x in 0..self.x-1
